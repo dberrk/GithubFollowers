@@ -74,6 +74,7 @@
 		FABC153728645DA800EC88C0 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				FABC154628645DA900EC88C0 /* Info.plist */,
 				FAEEB40C2865A39E0060C531 /* Model */,
 				FAEEB40B2865A0D50060C531 /* Support */,
 				FAEEB40A2865A0A20060C531 /* Extensions */,
@@ -120,7 +121,6 @@
 				FABC153A28645DA800EC88C0 /* SceneDelegate.swift */,
 				FABC154128645DA900EC88C0 /* Assets.xcassets */,
 				FABC154328645DA900EC88C0 /* LaunchScreen.storyboard */,
-				FABC154628645DA900EC88C0 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
