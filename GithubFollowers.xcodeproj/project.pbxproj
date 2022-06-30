@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA82A9B6286DC78A0035F950 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82A9B5286DC78A0035F950 /* NetworkManager.swift */; };
+		FA82A9B9286DD6370035F950 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82A9B8286DD6370035F950 /* ErrorMessage.swift */; };
 		FABC153928645DA800EC88C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC153828645DA800EC88C0 /* AppDelegate.swift */; };
 		FABC153B28645DA800EC88C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC153A28645DA800EC88C0 /* SceneDelegate.swift */; };
 		FABC154228645DA900EC88C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC154128645DA900EC88C0 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		FA82A9B5286DC78A0035F950 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA82A9B8286DD6370035F950 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		FABC153528645DA800EC88C0 /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC153828645DA800EC88C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABC153A28645DA800EC88C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		FA82A9B7286DD6240035F950 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				FA82A9B8286DD6370035F950 /* ErrorMessage.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
 		FABC152C28645DA800EC88C0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		FABC153728645DA800EC88C0 /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				FA82A9B7286DD6240035F950 /* Utilites */,
 				FA82A9B4286DC7710035F950 /* Managers */,
 				FABC154628645DA900EC88C0 /* Info.plist */,
 				FAEEB40C2865A39E0060C531 /* Model */,
@@ -222,6 +233,7 @@
 				FAEEB407286598BB0060C531 /* UIViewController+Ext.swift in Sources */,
 				FABC15512864943400EC88C0 /* GFButton.swift in Sources */,
 				FABC15552864A82400EC88C0 /* FollowerListViewController.swift in Sources */,
+				FA82A9B9286DD6370035F950 /* ErrorMessage.swift in Sources */,
 				FAEEB403286593F70060C531 /* GFBodyLabel.swift in Sources */,
 				FAEEB40E2865A3AA0060C531 /* Follower.swift in Sources */,
 				FAEEB401286593010060C531 /* GFTitleLabel.swift in Sources */,
